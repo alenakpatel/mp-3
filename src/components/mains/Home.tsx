@@ -30,7 +30,7 @@ export default function Home() {
     return (
         <StyledMain>
         <title>Home | Resume</title>
-            <StyledImg src="/src/components/picture/alenaPic.jpeg" alt="Alena Patel"/>
+            <StyledImg src="/public/alenaPic.jpeg" alt="Alena Patel"/>
             <p>My name is Alena Patel, and I am a junior at Boston University majoring in Data Science and minoring in
                 Computer Science. This is my online resume to showcase my education, experiences, achievements, references, and
                 projects.</p>
