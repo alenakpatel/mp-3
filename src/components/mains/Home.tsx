@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import alenaPic from "./alenaPic.jpeg";
 
 const StyledImg = styled.img`
     align-self: center;
@@ -30,7 +31,7 @@ export default function Home() {
     return (
         <StyledMain>
         <title>Home | Resume</title>
-            <StyledImg src="/public/alenaPic.jpeg" alt="Alena Patel"/>
+            <StyledImg src={alenaPic} alt="Alena Patel"/>
             <p>My name is Alena Patel, and I am a junior at Boston University majoring in Data Science and minoring in
                 Computer Science. This is my online resume to showcase my education, experiences, achievements, references, and
                 projects.</p>
