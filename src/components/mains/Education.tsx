@@ -23,6 +23,10 @@ const StyledMain = styled.main`
         font-size: calc(3px + 2vw);
         text-align: left;
     }
+    
+    @media screen and (max-width: 750px){
+        width: 100%;
+    }
 `;
 
 export default function Education() {

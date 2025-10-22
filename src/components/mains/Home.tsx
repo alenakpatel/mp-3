@@ -19,6 +19,10 @@ const StyledMain = styled.main`
         font-size: calc(1px + 1.5vw);
         padding: 2vw;
     }
+    
+    @media screen and (max-width: 750px){
+        width: 100%;
+    }
 `;
 
 

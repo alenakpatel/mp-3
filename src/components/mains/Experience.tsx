@@ -31,6 +31,10 @@ const StyledMain = styled.main`
         padding-left: 4vw;
         text-align: left;
     }
+    
+    @media (max-width: 750px){
+        width: 100%;
+    }
 `;
 
 export default function Experience() {

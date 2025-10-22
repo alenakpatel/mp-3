@@ -20,6 +20,9 @@ const StyledContainer = styled.div`
     display: flex;
     flex-direction: row;
     width: 100%;
+
+    @media screen and (max-width: 750px){
+            flex-direction: column;
 `;
 
 export default function Root() {

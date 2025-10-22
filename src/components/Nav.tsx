@@ -6,6 +6,10 @@ const StyledNav = styled.nav`
     background-color: #2C2A4A;
     font-family: lexend, serif;
     width: 30%;
+    
+    @media screen and (max-width: 750px){
+            width: 100%;
+    }
 `;
 
 const StyledUl = styled.ul`
@@ -17,6 +21,11 @@ const StyledUl = styled.ul`
     margin: 0 auto;
     text-align: center;
     justify-content: space-evenly;
+    
+    @media screen and (max-width: 750px){
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 `;
 
 const StyledLi = styled.li`
@@ -32,6 +41,10 @@ const StyledLi = styled.li`
         text-decoration: none;
         font-size: calc(2px + 2vw);
         color: #2C2A4A;
+    }
+    
+    @media screen and (max-width: 750px){
+        margin: 0;
     }
 `;
 

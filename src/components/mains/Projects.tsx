@@ -75,6 +75,10 @@ const StyledMain = styled.main`
         font-size: calc(2px + 2vw);
         color: #2C2A4A;
     }
+    
+    @media screen and (max-width: 750px){
+        width: 100%;
+    }
 `;
 const StyledButton = styled.button`
     background: #2C2A4A;
